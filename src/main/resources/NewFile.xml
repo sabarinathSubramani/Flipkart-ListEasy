@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<array>
+	<discount>15</discount>
+	<launched>true</launched>
+	<vendorCode>S774ce</vendorCode>
+	<initAttributeType>Metro Line</initAttributeType>
+	<codValid>false</codValid>
+	<labelId>2396</labelId>
+	<displayPrice>764</displayPrice>
+	<price>899</price>
+	<productLifeState>Buy Now</productLifeState>
+	<externalCashBackApplicable>false</externalCashBackApplicable>
+	<avgRating>0.0</avgRating>
+	<id>1959175947</id>
+	<labelName>Books</labelName>
+	<shippingDays>1</shippingDays>
+	<isFreebieNameClipped>false</isFreebieNameClipped>
+	<live>true</live>
+	<shippingCharges>0</shippingCharges>
+	<isProductNameClipped>false</isProductNameClipped>
+	<productStatus>active</productStatus>
+	<emiApplicable>true</emiApplicable>
+	<labelUrl>click-collect-books</labelUrl>
+	<soldOut>false</soldOut>
+	<attributesUpdated>true</attributesUpdated>
+	<voucherPrice>764</voucherPrice>
+	<prebook>false</prebook>
+	<addedToday>false</addedToday>
+	<name>Playing It My Way: My Autobiography (Buy the Book and Pick up at
+		Delhi Metro Stations)</name>
+	<noOfReviews>0</noOfReviews>
+</array>

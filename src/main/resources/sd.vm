@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<productRawDataModel>
+	<productAttributes>
+	#set($jsonArray=$jsonObject.getJSONArray("highlights"))
+	#set($end =$mathTool.sub($jsonArray.length(), 1))
+	#foreach($i in [0..$end])
+	#set($s=$jsonArray.getString($i))
+	#set($split=$s.split(":")) 
+	#if($split.size() >1)
+		<entry>
+			<key>$esc.xml($split.get(0))</key>
+			<value>$esc.xml($split.get(1))</value>
+		</entry>
+		#end
+#end
+		<entry>
+			<key>Title</key>
+			<value>$esc.xml($jsonObject.get("name"))</value>
+		</entry>
+	</productAttributes>
+<image>$esc.xml($jsonObject.get("image"))</image>
+
+</productRawDataModel>
